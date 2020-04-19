@@ -1,8 +1,8 @@
 /* Used as starting data for ShopPage */
 
-const SHOP_DATA = [
-  {
-    id: 1,
+const SHOP_DATA = {
+  hats: {
+    id: 'hats',
     title: 'Hats',
     routeName: 'hats',
     items: [
@@ -71,8 +71,8 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
-    id: 2,
+  sneakers: {
+    id: 'sneakers',
     title: 'Sneakers',
     routeName: 'sneakers',
     items: [
@@ -134,8 +134,8 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
-    id: 3,
+  jackets: {
+    id: 'jackets',
     title: 'Jackets',
     routeName: 'jackets',
     items: [
@@ -176,8 +176,8 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
-    id: 4,
+  womens: {
+    id: 'womens',
     title: 'Womens',
     routeName: 'womens',
     items: [
@@ -232,8 +232,8 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
-    id: 5,
+  mens: {
+    id: 'mens',
     title: 'Mens',
     routeName: 'mens',
     items: [
@@ -281,6 +281,6 @@ const SHOP_DATA = [
       }
     ]
   }
-];
+};
 
 export default SHOP_DATA;
